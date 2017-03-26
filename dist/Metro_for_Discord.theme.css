@@ -296,3 +296,10 @@ body, input, textarea,
 .guilds-wrapper .dms {
   margin-top: 4px;
   margin-bottom: 4px; }
+
+#bd-pub-li {
+  height: auto !important;
+  text-transform: capitalize; }
+
+#bd-pub-button:hover {
+  color: #CCC; }
