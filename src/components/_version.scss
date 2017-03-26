@@ -1,22 +1,20 @@
-:root {
-  --accent: #0072C6; }
-
-.theme-dark .channels-wrap:after {
+.theme-dark .channels-wrap:after{
   width: 100%;
   height: 18px;
-  background: #191919;
+  background: $d1;
   content: "Metro For Discord v3 INDEV";
   color: #FFF;
   font-size: 10px;
   text-align: center;
-  padding-top: 6px; }
-
-.theme-light .channels-wrap:after {
+  padding-top: 6px;
+}
+.theme-light .channels-wrap:after{
   width: 100%;
   height: 18px;
-  background: #f3f3f3;
+  background: $l2;
   content: "Metro For Discord v3 INDEV";
   color: #000;
   font-size: 10px;
   text-align: center;
-  padding-top: 6px; }
+  padding-top: 6px;
+}
