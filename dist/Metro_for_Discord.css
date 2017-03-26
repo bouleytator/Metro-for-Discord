@@ -1,31 +1,29 @@
 :root {
   --accent: #0072C6; }
 
-body, input, textarea {
+body, input, textarea,
+.keybind-shortcut {
   font-family: "Segoe UI", Selawik, Arial, Helvetica, sans-serif; }
 
 .message-group .comment .markup pre,
 .message-group .comment .markup code.inline,
-.markdown-modal code pre,
+.markdown-modal pre,
 .markdown-modal code.inline {
   font-family: Consolas, Menlo, Monaco, "Courier New", monospace; }
 
-.theme-dark .channels-wrap:after {
+.theme-dark .channels-wrap:after,
+.theme-light .channels-wrap:after {
+  content: "Metro For Discord v3 INDEV";
   width: 100%;
   height: 18px;
-  background: #191919;
-  content: "Metro For Discord v3 INDEV";
-  color: #FFF;
+  padding-top: 6px;
   font-size: 10px;
-  text-align: center;
-  padding-top: 6px; }
+  text-align: center; }
+
+.theme-dark .channels-wrap:after {
+  background-color: #191919;
+  color: #FFF; }
 
 .theme-light .channels-wrap:after {
-  width: 100%;
-  height: 18px;
-  background: #f3f3f3;
-  content: "Metro For Discord v3 INDEV";
-  color: #000;
-  font-size: 10px;
-  text-align: center;
-  padding-top: 6px; }
+  background-color: #f3f3f3;
+  color: #000; }
