@@ -1,0 +1,10 @@
+body, input, textarea,
+.keybind-shortcut{
+    font-family: $font;
+}
+.message-group .comment .markup pre,
+.message-group .comment .markup code.inline,
+.markdown-modal pre,
+.markdown-modal code.inline{
+    font-family: $mono;
+}
