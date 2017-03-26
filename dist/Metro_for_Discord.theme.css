@@ -27,3 +27,51 @@ body, input, textarea,
 .theme-light .channels-wrap:after {
   background-color: #f3f3f3;
   color: #000; }
+
+.titlebar {
+  background-color: #000;
+  height: 32px; }
+
+.titlebar:after {
+  content: "Discord";
+  position: absolute;
+  top: 8px;
+  margin-left: 12px;
+  padding-left: 24px;
+  background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAABDElEQVQ4T62TgQ0BQRBFbytwKkAF6IAKuApQAaVQASpABXSACtDBqeD8x85lbSQiZ5Kfye7O/Pkzc+eSiuYq5idvBEVRpCIcCV1h7pw7UUD3HbmZcBTWus+tcEmgoLEuwYocYShAiJGwFYh/xoiEuJcCX/niA0myRCtkHiKQiqAeEsC6jKO/nCeoMAXIG/xIsBPB0AiQVfMEd/me0BQ2/i6TvwoMsWyHNpyfcPhw0gNbYDYMM9HZCrGVdkDSgoBq+0j+3CtgExgtooBVhtaPCRZ6nUZB8TGMeRKwsoOXhiegKVh1IzAVFED1GR9+B8gbCw0hU9sklKZCEDLUm7AS+FLz//4LX3r/+FxZwQPmal21LLflGAAAAABJRU5ErkJggg==);
+  background-repeat: no-repeat;
+  color: #FFF; }
+
+.win-buttons {
+  height: 32px;
+  right: 0; }
+
+.win-buttons.win-buttons-notice {
+  top: 0; }
+
+.win-buttons button {
+  width: 45px;
+  background-size: 100%;
+  opacity: 1; }
+
+.win-minimize:hover,
+.win-maximize:hover {
+  background-color: #111; }
+
+.win-close:hover {
+  background-color: #e81123; }
+
+.app {
+  margin-top: 32px; }
+
+.win-buttons.win-buttons-light .win-close,
+.win-close {
+  background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAC0AAAAeCAMAAACPKmerAAAAG1BMVEX///////////////////////////////////8HBRbfAAAACXRSTlMAQ0R1dqyt6/3h1ErQAAAAR0lEQVR42u3RMQ4AIAhD0YKg3v/ELqZzGTX8QR1eCInonir9PjwF7ct5a5ynxoklHsRCsQdQmW1AZW/TMcgVLPPJv5zo/u0AYfIA2v+Kf0cAAAAASUVORK5CYII=); }
+
+.win-buttons.win-buttons-light .win-maximize,
+.win-maximize {
+  background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAC0AAAAeCAMAAACPKmerAAAABlBMVEX///////9VfPVsAAAAAXRSTlMAQObYZgAAACZJREFUeAFjGN5gFDBCAZGqoRRJJjOSYPKQVc1IkmoS42Y4g1EAAIDKAC48udQFAAAAAElFTkSuQmCC); }
+
+.win-buttons.win-buttons-light .win-minimize,
+.win-minimize {
+  background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAC0AAAAeCAMAAACPKmerAAAABlBMVEX///////9VfPVsAAAAAXRSTlMAQObYZgAAABdJREFUeAFjGOpgFIwCRjgYdE4bBaMAAB9tAAsTJ4TUAAAAAElFTkSuQmCC); }
