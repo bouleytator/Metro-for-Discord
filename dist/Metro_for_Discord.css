@@ -390,3 +390,68 @@ body, input, textarea,
 
 .theme-light .guild-channels .channel-text.unread:not(.selected):not(.channel-muted) a {
   color: #000; }
+
+.account {
+  height: 50px;
+  padding-right: 0;
+  border: 0;
+  font-size: 15px;
+  font-weight: 400; }
+
+.account .avatar-small {
+  width: 32px;
+  height: 32px; }
+
+.account .status {
+  width: 12px;
+  height: 12px;
+  right: -2px;
+  bottom: -2px;
+  border: 0; }
+
+.account .btn-group {
+  border: 0;
+  border-radius: 0;
+  box-shadow: none; }
+
+.account .btn-group button {
+  border: 0;
+  border-radius: 0;
+  box-shadow: none; }
+
+.account .btn {
+  width: 50px;
+  height: 50px;
+  background-color: transparent; }
+  .account .btn:hover {
+    background-color: #404040; }
+
+.theme-dark .account {
+  background-color: #191919; }
+
+.theme-dark .account .account-details .username,
+.theme-dark .account .account-details .discriminator {
+  color: #FFF;
+  opacity: 1; }
+
+.theme-light .account {
+  background-color: #f3f3f3; }
+
+.theme-light .account .account-details .username,
+.theme-light .account .account-details .discriminator {
+  color: #000;
+  opacity: 1; }
+
+button.btn.btn-settings {
+  position: absolute;
+  width: 48px;
+  height: 48px;
+  bottom: 4px;
+  left: 4px; }
+  button.btn.btn-settings:hover {
+    background-color: #404040; }
+  button.btn.btn-settings:active {
+    background-color: #404040; }
+
+.account .btn-settings:after {
+  opacity: 1; }
