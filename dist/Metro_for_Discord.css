@@ -296,3 +296,97 @@ body, input, textarea,
 .guilds-wrapper .dms {
   margin-top: 4px;
   margin-bottom: 4px; }
+
+.guild-header header {
+  height: 40px;
+  padding: 10px 20px;
+  box-shadow: none;
+  font-family: "Segoe UI", Selawik, Arial, Helvetica, sans-serif; }
+
+.theme-dark .guild-header header {
+  background-color: #191919; }
+
+.theme-light .guild-header header {
+  background-color: #101010; }
+
+.guild-header header span {
+  font-size: 20px;
+  font-weight: 300; }
+
+.theme-dark .guild-channels {
+  background-color: #191919; }
+
+.theme-light .guild-channels {
+  background-color: #f3f3f3; }
+
+.guild-channels header {
+  font-size: 15px;
+  font-weight: 400;
+  text-transform: none;
+  letter-spacing: normal;
+  opacity: 1; }
+
+.theme-light .guild-channels header,
+.theme-light .guild-channels .channel a {
+  color: #000;
+  opacity: 1; }
+
+.guild-channels .channel {
+  font-size: 13px; }
+
+.guild-channels .channel-text .channel-name,
+.guild-channels .channel a {
+  font-weight: normal;
+  text-shadow: none; }
+
+.guild-channels .channel-text.selected {
+  background-image: none; }
+
+.guild-channels .channel-text.selected a,
+.guild-channels .channel-text.selected a span:before {
+  color: var(--accent) !important; }
+
+.guild-channels .channel-text:hover {
+  background: rgba(255, 255, 255, 0.1); }
+
+.guild-channels .channel-text.selected:before {
+  border-left: 4px solid var(--accent);
+  height: 50%;
+  top: 50%;
+  margin-top: -7px; }
+
+.guild-channels .channel-text.unread:not(.selected):not(.channel-muted) a {
+  font-weight: normal; }
+
+.guild-channels .channel-text.unread:not(.selected):not(.channel-muted):before {
+  border-radius: 0;
+  width: 4px;
+  height: 17px;
+  left: 0;
+  top: 50%;
+  margin-top: -8px; }
+
+.guild-channels .channel-text:hover.channel-muted:before,
+.guild-channels .channel-text:hover:not(.unread):before {
+  border-left: 4px solid var(--accent);
+  height: 50%;
+  top: 50%;
+  margin-top: -7px; }
+
+.guild-channels .channel-text a, .guild-channels .channel-voice {
+  padding: 8px 6px 10px 32px; }
+
+.guild-channels .channel-voice-states li.speaking .avatar-small {
+  box-shadow: none; }
+
+.theme-light .guild-channels .channel-voice .channel-arrow {
+  filter: invert(100%); }
+
+.theme-light .guild-channels .channel-text.unread:not(.selected):not(.channel-muted):before {
+  background-color: #000; }
+
+.theme-light .guild-channels .channel-text .channel-name:before {
+  color: #000 !important; }
+
+.theme-light .guild-channels .channel-text.unread:not(.selected):not(.channel-muted) a {
+  color: #000; }
