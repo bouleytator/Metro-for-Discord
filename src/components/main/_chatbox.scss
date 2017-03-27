@@ -1,0 +1,40 @@
+.chat form{
+    margin: 0;
+    box-shadow: none;
+}
+.theme-dark .chat form{
+    background-color: $d2;
+}
+.theme-light .chat form{
+    background-color: $l2;
+}
+
+.channel-textarea{
+    margin-top: 0;
+}
+.channel-textarea-inner{
+    border: 0;
+    border-radius: 0;
+}
+.theme-dark .channel-textarea-inner{
+    background-color: transparent;
+    border: 0;
+}
+.theme-light .channel-textarea-inner,
+.theme-light .channel-textarea-inner textarea{
+    background-color: $l2;
+}
+
+.channel-textarea-inner textarea{
+    font-family: $font;
+    font-size: $fsui;
+    font-weight: $fwui;
+}
+.theme-dark .channel-textarea-inner textarea,
+.theme-dark .channel-textarea-inner textarea::-webkit-input-placeholder{
+    color: #FFF;
+}
+.theme-light .channel-textarea-inner textarea,
+.theme-light .channel-textarea-inner textarea::-webkit-input-placeholder{
+    color: #000;
+}

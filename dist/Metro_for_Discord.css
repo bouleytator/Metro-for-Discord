@@ -181,7 +181,7 @@ body, input, textarea,
   width: 56px; }
 
 .theme-dark .guilds-wrapper {
-  background-color: #333333; }
+  background-color: #262626; }
 
 .theme-light .guilds-wrapper {
   background-color: #101010; }
@@ -464,7 +464,7 @@ button.btn.btn-settings {
   font-size: 13px; }
 
 .theme-dark .messages-wrapper {
-  background-color: #333333; }
+  background-color: #262626; }
 
 .theme-dark .message-group .comment .markup {
   color: #FFF; }
@@ -485,3 +485,41 @@ button.btn.btn-settings {
 .theme-light .message-group.compact .message .markup .user-name {
   color: #000;
   font-size: 13px; }
+
+.chat form {
+  margin: 0;
+  box-shadow: none; }
+
+.theme-dark .chat form {
+  background-color: #262626; }
+
+.theme-light .chat form {
+  background-color: #f3f3f3; }
+
+.channel-textarea {
+  margin-top: 0; }
+
+.channel-textarea-inner {
+  border: 0;
+  border-radius: 0; }
+
+.theme-dark .channel-textarea-inner {
+  background-color: transparent;
+  border: 0; }
+
+.theme-light .channel-textarea-inner,
+.theme-light .channel-textarea-inner textarea {
+  background-color: #f3f3f3; }
+
+.channel-textarea-inner textarea {
+  font-family: "Segoe UI", Selawik, Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  font-weight: 400; }
+
+.theme-dark .channel-textarea-inner textarea,
+.theme-dark .channel-textarea-inner textarea::-webkit-input-placeholder {
+  color: #FFF; }
+
+.theme-light .channel-textarea-inner textarea,
+.theme-light .channel-textarea-inner textarea::-webkit-input-placeholder {
+  color: #000; }
