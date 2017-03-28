@@ -543,6 +543,9 @@ button.btn.btn-settings {
   color: #000;
   font-size: 13px; }
 
+.theme-dark .message-group a {
+  color: #0078D7; }
+
 .mention {
   background-color: transparent !important;
   color: #0078D7;
@@ -575,6 +578,58 @@ button.btn.btn-settings {
   color: #FFF;
   line-height: 1.5625;
   text-transform: none; }
+
+.embed {
+  background-color: transparent;
+  border: 0;
+  border-radius: 0; }
+
+.embed-wrapper .embed-color-pill {
+  border-radius: 0; }
+
+.theme-light .embed-wrapper .embed-color-pill {
+  background-color: #E5E5E5; }
+
+.theme-dark .message-group .embed-wrapper .embed-color-pill {
+  background-color: #E5E5E5; }
+
+.theme-dark .message-group .embed {
+  background-color: transparent;
+  border: 0; }
+
+.embed .embed-video-actions .embed-video-actions-inner {
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  background-color: rgba(0, 0, 0, 0.3);
+  border-radius: 0;
+  transition: background-color .3s; }
+  .embed .embed-video-actions .embed-video-actions-inner:hover {
+    background-color: transparent;
+    transition: background-color .3s; }
+
+.embed .embed-video-actions .embed-video-play,
+.embed .embed-video-actions .embed-video-popout {
+  opacity: 1; }
+
+.embed .embed-fields .embed-field .embed-field-name {
+  font-weight: 500; }
+
+.embed .embed-fields .embed-field .embed-field-value {
+  font-weight: 400; }
+
+.embed .embed-title {
+  margin: 0;
+  font-size: 15px;
+  line-height: 1.5625; }
+
+.embed .embed-author {
+  line-height: 1.5625;
+  margin: 0; }
+
+.embed .embed-author-name {
+  font-size: 13px;
+  font-weight: 400; }
 
 .chat form {
   margin: 0;
