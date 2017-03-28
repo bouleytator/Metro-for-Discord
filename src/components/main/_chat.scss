@@ -31,6 +31,19 @@
     font-size: $fschat;
 }
 
+.mention{
+    background-color: transparent !important;
+    color: $a;
+    font-weight: $fwchat;
+    &:hover{
+        background-color: transparent !important;
+        color: #FFF;
+    }
+}
+.theme-light .mention:hover{
+    color: #000;
+}
+
 // Divider
 .chat .divider{
     margin: 8px 0;;

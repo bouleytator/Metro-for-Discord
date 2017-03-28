@@ -543,6 +543,17 @@ button.btn.btn-settings {
   color: #000;
   font-size: 13px; }
 
+.mention {
+  background-color: transparent !important;
+  color: #0078D7;
+  font-weight: 400; }
+  .mention:hover {
+    background-color: transparent !important;
+    color: #FFF; }
+
+.theme-light .mention:hover {
+  color: #000; }
+
 .chat .divider {
   margin: 8px 0; }
 
