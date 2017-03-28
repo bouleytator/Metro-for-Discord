@@ -29,3 +29,27 @@
     color: #000;
     font-size: $fschat;
 }
+
+// Divider
+.chat .divider{
+    margin: 8px 0;;
+}
+.chat .divider>div{
+    display: none;
+}
+.chat .divider>span{
+    width: 100%;
+    padding: 0 20px;
+    background-color: #000 !important;
+    border-radius: 0;
+    color: #FFF !important;
+    font-size: $fsui;
+    font-weight: $fwui;
+    line-height: $lh;
+}
+.chat .divider.divider-red>span{
+    background-color: $alert;
+    color: #FFF;
+    line-height: $lh;
+    text-transform: none;
+}

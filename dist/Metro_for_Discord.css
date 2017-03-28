@@ -542,6 +542,28 @@ button.btn.btn-settings {
   color: #000;
   font-size: 13px; }
 
+.chat .divider {
+  margin: 8px 0; }
+
+.chat .divider > div {
+  display: none; }
+
+.chat .divider > span {
+  width: 100%;
+  padding: 0 20px;
+  background-color: #000 !important;
+  border-radius: 0;
+  color: #FFF !important;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 1.5625; }
+
+.chat .divider.divider-red > span {
+  background-color: #D02E00;
+  color: #FFF;
+  line-height: 1.5625;
+  text-transform: none; }
+
 .chat form {
   margin: 0;
   box-shadow: none; }
