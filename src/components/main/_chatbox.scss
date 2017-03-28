@@ -4,13 +4,15 @@
 }
 .theme-dark .chat form{
     background-color: $d2;
+    border: 0;
 }
 .theme-light .chat form{
     background-color: $l2;
+    border: 0;
 }
 
 .channel-textarea{
-    margin-top: 0;
+    margin: 0 0 24px;
 }
 .channel-textarea-inner{
     border: 0;
@@ -37,4 +39,40 @@
 .theme-light .channel-textarea-inner textarea,
 .theme-light .channel-textarea-inner textarea::-webkit-input-placeholder{
     color: #000;
+}
+
+// Upload button
+.channel-textarea-upload{
+    width: 50px;
+    height: 50px;
+}
+.theme-dark .channel-textarea-inner .channel-textarea-upload{
+    border: 0;
+    &:hover{
+        background-color: $d4;
+    }
+}
+
+// Typing
+.typing{
+    background-color: transparent;
+    padding: 0 20px;
+    font-weight: $fwui;
+}
+.theme-dark .typing{
+    background-color: transparent;
+    color: #FFF;
+}
+.theme-dark .chat form .typing{
+    background-color: transparent;
+    color: #000;
+}
+.theme-light .typing{
+    color: #000;
+}
+.typing .ellipsis{
+    display: none;
+}
+.typing strong{
+    font-weight: $fwui;
 }
