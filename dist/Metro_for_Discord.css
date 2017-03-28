@@ -556,3 +556,73 @@ button.btn.btn-settings {
 
 .typing strong {
   font-weight: 400; }
+
+.channel-members {
+  padding: 0; }
+
+.theme-dark .channel-members {
+  background-color: #191919; }
+
+.theme-light .channel-members {
+  background-color: #f3f3f3; }
+
+.channel-members h2 {
+  padding: 0 12px;
+  font-size: 15px;
+  font-weight: 300;
+  text-transform: none;
+  letter-spacing: normal; }
+
+.theme-dark .channel-members h2 {
+  color: #FFF; }
+
+.theme-light .channel-members h2 {
+  color: #000; }
+
+.channel-members .member {
+  padding: 5px 12px;
+  font-weight: 400;
+  line-height: 1.5625; }
+
+.channel-members .avatar-small {
+  width: 32px;
+  height: 32px; }
+
+.channel-members .avatar-small .status {
+  width: 12px;
+  height: 12px;
+  right: -4px;
+  border: 0; }
+
+.channel-members .member .member-username {
+  font-size: 15px; }
+
+.channel-members .member .member-activity {
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 1.5625; }
+
+.theme-dark .channel-members .member .member-activity {
+  color: #FFF;
+  font-weight: 400; }
+
+.theme-light .channel-members .member .member-activity {
+  color: #000; }
+
+.channel-members .member .member-activity strong {
+  font-size: 13px;
+  font-weight: 400; }
+
+.channel-members .member.member-status-offline {
+  font-weight: 400; }
+
+.theme-dark .channel-members .member:not(.disabled).popout-open,
+.theme-dark .channel-members .member:not(.disabled):hover {
+  background-image: none;
+  background-color: #404040; }
+
+.theme-light .channel-members .member:not(.disabled).popout-open,
+.theme-light .channel-members .member:not(.disabled):hover {
+  background-image: none;
+  background-color: rgba(0, 0, 0, 0.1);
+  color: #000; }
