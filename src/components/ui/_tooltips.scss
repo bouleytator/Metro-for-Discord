@@ -1,0 +1,18 @@
+.tooltip{
+    background-color: $d1;
+    color: #FFF;
+    font-size: $fschat;
+    font-weight: normal;
+    border: 1px solid rgba(255,255,255,.3);
+    border-radius: 0;
+    padding: 7px 8px 8px;
+    box-shadow: none;
+}
+.tooltip:after{
+    display: none;
+}
+
+// Hide the "User Settings" tooltip
+.tooltip[style*="left: -19px;"]{
+    display: none;
+}
