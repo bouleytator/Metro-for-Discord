@@ -322,6 +322,26 @@
     margin-top: 4px;
     margin-bottom: 4px; }
 
+  .guilds-wrapper .btn-download-apps svg,
+  .guilds-wrapper .btn-download-apps:after {
+    display: none; }
+
+  .guilds-wrapper .btn-download-apps {
+    padding: 0;
+    width: 48px;
+    height: 48px;
+    margin: 0 0 0 4px;
+    position: absolute;
+    bottom: 108px;
+    left: 0;
+    font-size: 0 !important;
+    background-size: 24px 24px;
+    background-repeat: no-repeat;
+    background-position: 50% 50%; }
+
+  .guilds-wrapper .btn-download-apps:hover {
+    background-color: #404040; }
+
   .guild-header header {
     height: 40px;
     padding: 10px 20px;
@@ -932,4 +952,7 @@
   form.auth-form p.token-tip {
     color: #FFF;
     font-size: 15px;
-    font-weight: 400; } }
+    font-weight: 400; }
+
+  .guilds-wrapper .btn-download-apps {
+    background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAMAAABEpIrGAAAAGFBMVEUAAAD///////////////////////////8jfp1fAAAAB3RSTlMAEFB/gM/QdnmVFwAAAFBJREFUeNrtyjEOwCAMxVB+Kfj+N66CFHWgCVMlBrz6lQ2DA34Hl16g+vFpcqDGPQH1IWD8rhII8B8I8B8I8B8ISL6J/Juwn4rk5zG1Bvv0AMFZAwbJUZoYAAAAAElFTkSuQmCC); } }

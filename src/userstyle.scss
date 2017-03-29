@@ -8,6 +8,7 @@
 
 @import 'components/main/titlebar';
 @import 'components/main/guilds';
+@import 'components/main/downloadapp';
 @import 'components/main/channels';
 @import 'components/main/account';
 @import 'components/main/chat';
@@ -18,4 +19,6 @@
 @import 'components/modals/markdown';
 
 @import 'components/main/login';
+
+@import 'components/icons/downloadapp';
 }

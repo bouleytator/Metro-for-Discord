@@ -1,0 +1,20 @@
+.guilds-wrapper .btn-download-apps svg,
+.guilds-wrapper .btn-download-apps:after{
+    display: none;
+}
+.guilds-wrapper .btn-download-apps {
+    padding: 0;
+    width: 48px;
+    height: 48px;
+    margin: 0 0 0 4px;
+    position: absolute;
+    bottom: 108px;
+    left: 0;
+    font-size: 0!important;
+    background-size: 24px 24px;
+    background-repeat: no-repeat;
+    background-position: 50% 50%
+}
+.guilds-wrapper .btn-download-apps:hover {
+    background-color: $d4;
+}
