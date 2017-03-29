@@ -49,26 +49,62 @@
 
 // Divider
 .chat .divider{
-    margin: 8px 0;;
-}
-.chat .divider>div{
-    display: none;
+    margin: 8px 0;
 }
 .chat .divider>span{
-    width: 100%;
-    padding: 0 20px;
-    background-color: #000 !important;
+    padding: 0 8px;
     border-radius: 0;
-    color: #FFF !important;
     font-size: $fsui;
     font-weight: $fwui;
     line-height: $lh;
 }
 .chat .divider.divider-red>span{
+    text-transform: none;
+    line-height: $lh;
+}
+.divider + .divider{
+    margin-top: 25px;
+}
+.chat .divider:before{
+    display: none;
+}
+.theme-dark .friends-table .messages .divider:not(.red) div,
+.theme-dark .messages-wrapper .messages .divider:not(.red) div{
+    background-color: #FFF;
+}
+.theme-dark .friends-table .messages .divider:not(.red) span,
+.theme-dark .messages-wrapper .messages .divider:not(.red) span{
+    background-color: #FFF;
+    color: #000;
+}
+.theme-dark .friends-table .messages .divider.divider-red>span,
+.theme-dark .messages-wrapper .messages .divider.divider-red>span{
     background-color: $alert;
     color: #FFF;
-    line-height: $lh;
-    text-transform: none;
+}
+.theme-dark .friends-table .messages .divider.divider-red>div,
+.theme-dark .messages-wrapper .messages .divider.divider-red>div{
+    background-color: $alert;
+    opacity: 1;
+}
+.theme-light .friends-table .messages .divider:not(.red) div,
+.theme-light .messages-wrapper .messages .divider:not(.red) div{
+    background-color: #000;
+}
+.theme-light .friends-table .messages .divider:not(.red) span,
+.theme-light .messages-wrapper .messages .divider:not(.red) span{
+    background-color: #000;
+    color: #FFF;
+}
+.theme-light .friends-table .messages .divider.divider-red>span,
+.theme-light .messages-wrapper .messages .divider.divider-red>span{
+    background-color: $alert;
+    color: #FFF;
+}
+.theme-light .friends-table .messages .divider.divider-red>div,
+.theme-light .messages-wrapper .messages .divider.divider-red>div{
+    background-color: $alert;
+    opacity: 1;
 }
 
 // Embeds
