@@ -6,7 +6,7 @@ A custom theme for Discord based on Microsoft's Modern Design Language - 'Metro'
 Three different options are available:
 * [Download for BetterDiscord](https://raw.githubusercontent.com/TakosThings/Metro-for-Discord/v3/dist/Metro_for_Discord.theme.css)
 * [Download for BeautifulDiscord](https://raw.githubusercontent.com/TakosThings/Metro-for-Discord/v3/dist/Metro_for_Discord.css)
-* [Install from Userstyles.org](https://userstyles.org/styles/136340/metro-for-discord) or [Download from the repo](https://raw.githubusercontent.com/TakosThings/Metro-for-Discord/v3/dist/Metro_for_Discord.css)
+* [Install from Userstyles.org](https://userstyles.org/styles/136340/metro-for-discord) or [Download from the repo](https://raw.githubusercontent.com/TakosThings/Metro-for-Discord/v3/dist/Metro_for_Discord.userstyle.css)
 
 # Installing
 Follow the relevant install instructions for your platform.  
