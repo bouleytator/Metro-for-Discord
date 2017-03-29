@@ -1,3 +1,4 @@
+@-moz-document url-prefix("https://discordapp.com/channels/"), url-prefix("https://discordapp.com/login"), url-prefix("https://discordapp.com/register") {
 @import 'components/variables';
 @import 'components/reset';
 @import 'components/version';
@@ -17,3 +18,4 @@
 @import 'components/modals/markdown';
 
 @import 'components/main/login';
+}
