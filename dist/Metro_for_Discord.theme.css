@@ -808,6 +808,20 @@ button.btn.btn-settings {
   background-color: rgba(0, 0, 0, 0.1);
   color: #000; }
 
+.bot-tag {
+  background-color: #404040;
+  padding: .2em .6em .3em;
+  border-radius: 0;
+  font-size: 76%;
+  text-transform: lowercase; }
+
+.bot-tag:first-letter {
+  text-transform: uppercase; }
+
+.theme-light .bot-tag {
+  background-color: rgba(0, 0, 0, 0.1);
+  color: #000 !important; }
+
 #bd-pub-li {
   height: auto !important;
   text-transform: capitalize; }

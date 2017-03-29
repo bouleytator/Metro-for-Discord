@@ -1,0 +1,14 @@
+.bot-tag{
+    background-color: $d4;
+    padding: .2em .6em .3em;
+    border-radius: 0;
+    font-size: 76%;
+    text-transform: lowercase;
+}
+.bot-tag:first-letter{
+    text-transform: uppercase;
+}
+.theme-light .bot-tag{
+    background-color: rgba(0,0,0,.1);
+    color: #000 !important;
+}
