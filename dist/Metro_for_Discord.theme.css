@@ -854,6 +854,14 @@ code {
   background-color: rgba(0, 0, 0, 0.1);
   color: #000 !important; }
 
+.markdown-modal code.inline {
+  background: #F2F2F2;
+  padding: 2px 4px;
+  border-radius: 0;
+  color: #000;
+  font-size: 13px;
+  font-weight: 400; }
+
 #bd-pub-li {
   height: auto !important;
   text-transform: capitalize; }
