@@ -48,6 +48,42 @@
     color: #000;
 }
 
+// Codeblock
+code{
+    font-size: $fschat;
+    line-height: $lh;
+}
+.message-group .comment .markup pre{
+    background-color: #F2F2F2;
+    border: 0;
+    border-left: 5px solid #E5E5E5;
+    border-radius: 0;
+}
+.theme-dark .message-group .comment .markup pre{
+    background-color: transparent;
+    border-color: rgba(255,255,255,.5);
+}
+.theme-dark .message-group .comment .markup code.inline,
+.theme-dark .message-group .comment .markup pre code{
+    background-color: rgba(255,255,255,.1);
+}
+.theme-dark .hljs{
+    padding: 11px;
+    color: #FFF;
+}
+.theme-light .hljs{
+    padding: 11px;
+    color: #000;
+}
+
+// Inline Code
+.message-group .comment .markup code.inline{
+    background-color: #F2F2F2;
+    padding: 2px 4px;
+    border-radius: 0;
+    font-size: $fschat;
+}
+
 // Divider
 .chat .divider{
     margin: 8px 0;
