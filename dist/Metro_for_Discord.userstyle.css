@@ -888,6 +888,63 @@
     font-size: 13px;
     font-weight: 400; }
 
+  .popout.popout-top {
+    width: 100% !important;
+    height: 100% !important;
+    top: 32px !important;
+    left: 0 !important;
+    transform: translateX(0) translateY(0) !important;
+    margin: 0;
+    background-color: rgba(0, 0, 0, 0.9);
+    animation: statusfade 350ms cubic-bezier(0.1, 0.9, 0.2, 1); }
+
+  .status-picker {
+    width: auto;
+    height: 100px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    background-color: transparent;
+    margin: -72px -136px;
+    border-radius: 0; }
+
+  .status-picker .popout-menu-item {
+    display: inline-block;
+    padding: 0;
+    line-height: normal; }
+    .status-picker .popout-menu-item:hover {
+      background-color: transparent; }
+
+  .status-picker .popout-menu-separator {
+    display: none; }
+
+  .status-picker .popout-menu-item .status-text,
+  .status-picker .popout-menu-item .helper {
+    display: none; }
+
+  .status-picker .popout-menu-item .status {
+    width: 64px;
+    height: 64px;
+    margin-top: 36px;
+    margin-right: 4px !important;
+    border: 2px solid transparent;
+    border-radius: 0;
+    box-sizing: border-box; }
+    .status-picker .popout-menu-item .status:hover {
+      border: 2px solid rgba(255, 255, 255, 0.4); }
+
+  .status-picker::before {
+    content: "Change Status";
+    position: absolute;
+    color: #FFF;
+    font-size: 24px;
+    font-weight: 300; }
+
+  @keyframes statusfade {
+    from {
+      opacity: 0; }
+    to {
+      opacity: 1; } }
   .auth-blur {
     display: none; }
 
