@@ -599,6 +599,29 @@ button.btn.btn-settings {
 .theme-dark .message-group a {
   color: #0078D7; }
 
+.chat .jump-to-present-bar,
+.chat .new-messages-bar {
+  left: 0;
+  right: 12px;
+  background-color: var(--accent) !important;
+  border-radius: 0; }
+
+.chat .jump-to-present-bar button,
+.chat .new-messages-bar button {
+  font-family: "Segoe UI", Selawik, Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  padding: 6px 20px; }
+
+.chat .jump-to-present-bar:first-child,
+.chat .new-messages-bar button:first-child {
+  font-size: 15px; }
+
+.chat .jump-to-present-bar button:last-child,
+.chat .new-messages-bar button:last-child {
+  color: #FFF;
+  font-size: 15px;
+  text-transform: none; }
+
 .mention {
   background-color: transparent !important;
   color: #0078D7;
