@@ -1,0 +1,38 @@
+.context-menu{
+    background-color: $d1 !important;
+    border: 1px solid $inputborder;
+    border-radius: 0;
+}
+.context-menu .item{
+    border-radius: 0;
+    color: #FFF !important;
+    font-size: $fschat;
+    font-weight: $fwchat;
+    line-height: $lh;
+    &:hover{
+        background-color: $d4 !important;
+        color: #FFF;
+    }
+}
+.context-menu .item.danger{
+    color: $alert !important;
+}
+.context-menu .item-group{
+    margin: 0 2px;
+    border-color: $inputborder;
+}
+.context-menu .item:first-of-type{
+    margin-top: 8px;
+}
+.context-menu .item:last-of-type{
+    margin-bottom: 8px;
+}
+.context-menu .item-subMenu{
+    background-color: transparent !important;
+}
+.context-menu .context-menu{
+    margin-left: 164px;
+}
+.theme-dark.context-menu .context-menu{
+    border: 1px solid $inputborder;
+}
