@@ -5,6 +5,56 @@
 .theme-dark .private-channels{
     background-color: $d1;
 }
+.private-channels header{
+    font-size: $fsui;
+    font-weight: $fwheader;
+    text-transform: none;
+    opacity: 1;
+}
+.theme-light .private-channels header{
+    color: #000;
+}
+.private-channels .channel a{
+    font-size: $fsui;
+    font-weight: $fwui;
+}
+.theme-dark .private-channels .channel:hover{
+    background-color: $d4;
+    background-image: none;
+}
+.theme-light .private-channels .channel:hover{
+    background-color: rgba(0,0,0,.1);
+    background-image: none;
+}
+.private-channels .channel:hover:before,
+.private-channels .channel.selected:before{
+    border-left: 4px solid var(--accent);
+    height: 50%;
+    top: 50%;
+    margin-top: -10px;
+}
+.private-channels .channel:hover:before{
+    opacity: .3;
+}
+.private-channels .channel.selected{
+    background-image: none;
+}
+.private-channels .channel .channel-name{
+    opacity: 1;
+}
+.theme-light .private-channels .channel .channel-name{
+    color: #000;
+}
+.private-channels .channel .channel-activity{
+    color: #FFF;
+    line-height: $lh;
+}
+.private-channels .channel .channel-activity strong{
+    font-weight: $fwui;
+}
+.theme-light .private-channels .channel .channel-activity{
+    color: #000;
+}
 
 // DM search
 .search-bar{

@@ -946,6 +946,56 @@
   .theme-dark .private-channels {
     background-color: #191919; }
 
+  .private-channels header {
+    font-size: 15px;
+    font-weight: 300;
+    text-transform: none;
+    opacity: 1; }
+
+  .theme-light .private-channels header {
+    color: #000; }
+
+  .private-channels .channel a {
+    font-size: 15px;
+    font-weight: 400; }
+
+  .theme-dark .private-channels .channel:hover {
+    background-color: #404040;
+    background-image: none; }
+
+  .theme-light .private-channels .channel:hover {
+    background-color: #f3f3f3;
+    background-image: none; }
+
+  .private-channels .channel:hover:before,
+  .private-channels .channel.selected:before {
+    border-left: 4px solid var(--accent);
+    height: 50%;
+    top: 50%;
+    margin-top: -10px; }
+
+  .private-channels .channel:hover:before {
+    opacity: .3; }
+
+  .private-channels .channel.selected {
+    background-image: none; }
+
+  .private-channels .channel .channel-name {
+    opacity: 1; }
+
+  .theme-light .private-channels .channel .channel-name {
+    color: #000; }
+
+  .private-channels .channel .channel-activity {
+    color: #FFF;
+    line-height: 1.5625; }
+
+  .private-channels .channel .channel-activity strong {
+    font-weight: 400; }
+
+  .theme-light .private-channels .channel .channel-activity {
+    color: #000; }
+
   .search-bar {
     background-color: transparent;
     border-radius: 0;
