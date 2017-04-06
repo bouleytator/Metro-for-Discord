@@ -223,3 +223,10 @@ code{
     font-size: $fschat;
     font-weight: $fwchat;
 }
+
+// System messages
+.system-message{
+    padding: 0 20px;
+    font-size: $fsui;
+    line-height: $lh;
+}

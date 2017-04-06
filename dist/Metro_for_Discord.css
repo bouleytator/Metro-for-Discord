@@ -793,6 +793,11 @@ code {
   font-size: 13px;
   font-weight: 400; }
 
+.system-message {
+  padding: 0 20px;
+  font-size: 15px;
+  line-height: 1.5625; }
+
 .chat form {
   margin: 0;
   box-shadow: none; }
