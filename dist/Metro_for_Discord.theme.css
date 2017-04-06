@@ -424,6 +424,16 @@ body, input, textarea,
   margin-top: 4px;
   margin-bottom: 4px; }
 
+.badge {
+  background-color: #D02E00;
+  text-shadow: none;
+  border-radius: 0;
+  box-shadow: none; }
+
+.guilds-wrapper .guilds .guild .badge {
+  right: 2px;
+  bottom: 2px; }
+
 .guild-header header {
   height: 40px;
   padding: 10px 20px;

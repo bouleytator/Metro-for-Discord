@@ -377,6 +377,16 @@
     margin-top: 4px;
     margin-bottom: 4px; }
 
+  .badge {
+    background-color: #D02E00;
+    text-shadow: none;
+    border-radius: 0;
+    box-shadow: none; }
+
+  .guilds-wrapper .guilds .guild .badge {
+    right: 2px;
+    bottom: 2px; }
+
   .guilds-wrapper .btn-download-apps svg,
   .guilds-wrapper .btn-download-apps:after {
     display: none; }
@@ -964,7 +974,7 @@
     background-image: none; }
 
   .theme-light .private-channels .channel:hover {
-    background-color: #f3f3f3;
+    background-color: rgba(0, 0, 0, 0.1);
     background-image: none; }
 
   .private-channels .channel:hover:before,

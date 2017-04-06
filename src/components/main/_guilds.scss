@@ -119,3 +119,15 @@
     margin-top: 4px;
     margin-bottom: 4px;
 }
+
+// Badges
+.badge{
+    background-color: $alert;
+    text-shadow: none;
+    border-radius: 0;
+    box-shadow: none;
+}
+.guilds-wrapper .guilds .guild .badge{
+    right: 2px;
+    bottom: 2px;
+}
