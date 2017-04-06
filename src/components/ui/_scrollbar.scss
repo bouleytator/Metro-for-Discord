@@ -1,5 +1,6 @@
 .theme-dark{
-    & .scroller-wrap .scroller.messages{
+    & .scroller-wrap .scroller.messages,
+      #friends .scroller{
         &::-webkit-scrollbar{
             width: 12px;
         }
@@ -41,7 +42,8 @@
 
 // Light theme
 .theme-light{
-    & .scroller-wrap .scroller.messages{
+    & .scroller-wrap .scroller.messages,
+      #friends .scroller{
         &::-webkit-scrollbar{
             width: 12px;
         }

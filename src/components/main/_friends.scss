@@ -1,0 +1,236 @@
+// Open DMs channels
+.theme-light .private-channels{
+    background-color: $l2;
+}
+.theme-dark .private-channels{
+    background-color: $d1;
+}
+
+// DM search
+.search-bar{
+    background-color: transparent;
+    border-radius: 0;
+    box-shadow: none;
+}
+.theme-dark .search-bar{
+    background-color: $d4;
+}
+.theme-light .search-bar{
+    background-color: $d4;
+}
+.private-channels .search-bar{
+    height: 40px;
+    padding: 0;
+}
+.search-bar .search-bar-inner{
+    padding: 0;
+    border: 0;
+    border-radius: 0;
+}
+.search-bar input{
+    height: 40px;
+    padding: 0px 12px;
+    font-family: $font;
+    font-size: $fschat;
+}
+.search-bar input::-webkit-input-placeholder{
+    color: #FFF;
+}
+.search-bar-icon .icon{
+    top: 12px;
+}
+
+// Friends table header
+#friends .friends-header{
+    height: 40px;
+    padding: 0;
+}
+.theme-dark #friends .friends-header{
+    background-color: $d1;
+    border: 0;
+    box-shadow: none;
+}
+.theme-light #friends .friends-header{
+    background-color: $l1;
+    border: 0;
+    box-shadow: none;
+}
+#friends .friends-header .tab-bar{
+    font-size: $fsui;
+    font-weight: $fwui;
+}
+#friends .friends-header .tab-bar .tab-bar-item{
+    margin: 0;
+    padding: 0 12px;
+    border-radius: 0;
+    color: #FFF;
+    line-height: 40px;
+}
+.theme-dark #friends .friends-header .tab-bar .tab-bar-item{
+    color: #FFF;
+}
+.theme-dark #friends .friends-header .tab-bar .tab-bar-item.tab-bar-item-primary:hover:not(.selected),
+.theme-light #friends .friends-header .tab-bar .tab-bar-item.tab-bar-item-primary:hover:not(.selected){
+    background-color: var(--accent);
+}
+.theme-dark #friends .friends-header .tab-bar .tab-bar-item:hover:not(.selected),
+.theme-light #friends .friends-header .tab-bar .tab-bar-item:hover:not(.selected){
+    background-color: $d4;
+}
+.theme-dark #friends .friends-header .tab-bar .tab-bar-item.tab-bar-item-primary,
+.theme-light #friends .friends-header .tab-bar .tab-bar-item.tab-bar-item-primary{
+    background-color: transparent;
+    &.selected{
+        background-color: var(--accent);
+        color: #FFF;
+    }
+}
+.theme-dark #friends .friends-header .tab-bar .tab-bar-item.selected,
+.theme-light #friends .friends-header .tab-bar .tab-bar-item.selected{
+    background-color: var(--accent);
+    color: #FFF;
+}
+#friends .friends-header .tab-bar .tab-bar-separator{
+    display: none;
+}
+
+// Friends table
+#friends .friends-table{
+    margin-top: 0;
+}
+.theme-dark .friends-table{
+    background-color: $d2;
+}
+.theme-light .friends-table{
+    background-color: #FFF;
+}
+#friends .friends-table .friends-table-header{
+    padding: 10px 12px;
+}
+#friends .friends-table .friends-table-header .friends-column{
+    font-size: 11px;
+    font-weight: 400;
+    text-transform: none;
+    line-height: $lh;
+    letter-spacing: normal;
+}
+.theme-dark #friends .friends-table .friends-table-header .friends-column{
+    color: rgba(255,255,255,.6);
+}
+.theme-light #friends .friends-table .friends-table-header .friends-column{
+    color: rgba(0,0,0,.6);
+}
+#friends .friends-table .friends-table-header .friends-column-separator{
+    display: none;
+}
+.theme-dark #friends .friends-table .friends-table-header{
+    border-bottom: 1px solid rgba(255,255,255,.2);
+}
+.theme-light #friends .friends-table .friends-table-header{
+    border-bottom: 1px solid rgba(0,0,0,.2);
+}
+
+#friends .friends-table .friends-row{
+    height: 48px !important;
+    margin: 0;
+    padding: 0 12px;
+    font-size: $fsui;
+    font-weight: $fwui;
+    &:hover{
+        margin: 0;
+        padding: 0 12px;
+        border-radius: 0;
+        box-shadow: none;
+    }
+}
+.theme-dark #friends .friends-table .friends-row:hover{
+    background-color: $d4;
+}
+.theme-light #friends .friends-table .friends-row:hover{
+    background-color: $l2;
+}
+#friends .friends-table .friends-row .friends-column+.friends-column{
+    margin-left: 0;
+}
+#friends .friends-table .friends-row .discord-tag .discriminator{
+    margin-bottom: 2px;
+    margin-left: 4px;
+}
+.theme-dark #friends .friends-table .friends-row .friends-column-name,
+.theme-dark #friends .friends-table .friends-row .friends-column-status{
+    color: #FFF;
+    font-weight: $fwui;
+    line-height: $lh;
+}
+.theme-light #friends .friends-table .friends-row .friends-column-name,
+.theme-light #friends .friends-table .friends-row .friends-column-status{
+    color: #000;
+    font-weight: $fwui;
+    line-height: $lh;
+}
+#friends .friends-table .friends-row .friends-column-name .avatar-small{
+    width: 32px;
+    height: 32px;
+    margin-right: 12px;
+    background-size: 32px;
+}
+#friends .friends-table .friends-row .friends-column-status .status-text strong{
+    font-weight: $fwui;
+}
+#friends .friends-table .friends-row .friends-column-actions .friends-action{
+    width: 40px;
+    height: 40px;
+    border: 1px solid $inputborder;
+    border-radius: 0;
+    box-sizing: border-box;
+}
+.theme-dark #friends .friends-table .friends-row .friends-column-actions .friends-action{
+    background-color: transparent;
+    &:hover{
+        background-color: $inputborder;
+        border-color: $inputborderhover;
+    }
+}
+.theme-light #friends .friends-table .friends-row .friends-column-actions .friends-action{
+    background-color: transparent;
+    &:hover{
+        background-color: $inputborder;
+        border-color: $inputborderhover;
+    }
+}
+#friends .friends-table .friends-row .friends-column-actions .friends-action.friends-action-remove:hover{
+    background-color: $alert !important;
+}
+#friends .friends-table .friends-row:hover .friends-column-actions{
+    padding-right: 30px;
+}
+#friends .friends-empty p{
+    font-size: $fsui;
+    font-weight: $fwui;
+}
+
+// Add Friends
+#friends .friends-table .friend-table-add-wrapper .friend-table-add-header{
+    background-image: none;
+}
+.theme-dark #friends .friends-table .friend-table-add-wrapper .friend-table-add-header{
+    background-image: none;
+}
+#friends .friends-table .friend-table-add-wrapper h2{
+    font-size: $fsheader;
+    font-weight: $fwheader;
+    text-transform: none;
+}
+.theme-light #friends .friends-table .friend-table-add-wrapper h2{
+    color: #000;
+}
+#friends .friends-table .friend-table-add-wrapper .friend-table-add-description{
+    font-size: $fsui;
+    font-weight: $fwui;
+}
+.theme-dark #friends .friends-table .friend-table-add-description{
+    color: #FFF;
+}
+.theme-light #friends .friends-table .friend-table-add-description{
+    color: #000;
+}
