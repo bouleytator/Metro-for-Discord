@@ -3,7 +3,9 @@
     --accent: #0072C6; }
 
   body, input, textarea,
-  .keybind-shortcut {
+  .keybind-shortcut,
+  .add-friend-input-wrapper .add-friend-hint,
+  .add-friend-input-wrapper .add-friend-input {
     font-family: "Segoe UI", Selawik, Arial, Helvetica, sans-serif; }
 
   .message-group .comment .markup pre,

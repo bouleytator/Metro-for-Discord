@@ -1,5 +1,7 @@
 body, input, textarea,
-.keybind-shortcut{
+.keybind-shortcut,
+.add-friend-input-wrapper .add-friend-hint,
+.add-friend-input-wrapper .add-friend-input{
     font-family: $font;
 }
 .message-group .comment .markup pre,
