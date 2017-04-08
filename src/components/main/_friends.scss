@@ -284,3 +284,93 @@
 .theme-light #friends .friends-table .friend-table-add-description{
     color: #000;
 }
+
+.add-friend-input-wrapper{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+.add-friend-input-wrapper .add-friend-hint,
+.add-friend-input-wrapper .add-friend-input{
+    height: 36px;
+    padding-left: 11px;
+    box-sizing: border-box;
+    font-size: $fsui;
+    font-weight: $fwui;
+    letter-spacing: normal;
+}
+.add-friend-input-wrapper .add-friend-hint{
+    left: 1px;
+}
+.add-friend-input-wrapper .add-friend-input{
+    margin-right: 11px;
+    border: 1px solid $inputborder;
+    line-height: 1;
+}
+.theme-dark .add-friend-input-wrapper .add-friend-input{
+    border-color: $inputborder;
+    &:hover{
+        border-color: $inputborderhover;
+    }
+    &:focus{
+        background-color: #FFF;
+        border-color: var(--accent);
+        color: #000;
+    }
+}
+.theme-light .add-friend-input-wrapper .add-friend-input{
+    border-color: $altinputborder;
+    color: #000;
+    &:hover{
+        border-color: $altinputborderhover;
+    }
+    &:focus{
+        border-color: var(--accent);
+        color: #000;
+    }
+}
+.add-friend-input-wrapper .btn{
+    padding: 9px 12px 10px !important;
+}
+
+#friends .btn{
+    border: 1px solid transparent;
+    border-radius: 0;
+    font-size: $fsui;
+    font-weight: $fwui;
+    line-height: 1;
+}
+.theme-dark #friends .btn{
+    background-color: rgba(255,255,255,.2);
+    &:hover{
+        background-color: rgba(255,255,255,.2);
+        border-color: $inputborder;
+    }
+    &:focus{
+        border-color: transparent;
+    }
+}
+.theme-light #friends .btn{
+    background-color: rgba(0,0,0,.3);
+    color: #000;
+    &:hover{
+        border-color: $altinputborder;
+    }
+    &:focus{
+        border-color: transparent;
+    }
+}
+
+#friends .friends-table .friend-table-add-wrapper .friend-table-add-header .connect-accounts h3{
+    font-size: $fsui;
+    font-weight: $fwui;
+}
+.theme-dark #friends .friends-table .friend-table-add-wrapper .friend-table-add-header .connect-accounts h3{
+    color: #FFF;
+}
+.theme-light #friends .friends-table .friend-table-add-wrapper .friend-table-add-header .connect-accounts h3{
+    color: #000;
+}
+.connect-account-btn .connect-account-btn-inner{
+    border-radius: 0;
+}

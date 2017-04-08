@@ -2,7 +2,7 @@
   :root {
     --accent: #0072C6; }
 
-  body, input, textarea,
+  body, input, textarea, button,
   .keybind-shortcut,
   .add-friend-input-wrapper .add-friend-hint,
   .add-friend-input-wrapper .add-friend-input {
@@ -1224,6 +1224,85 @@
 
   .theme-light #friends .friends-table .friend-table-add-description {
     color: #000; }
+
+  .add-friend-input-wrapper {
+    margin: 0;
+    padding: 0;
+    border: 0; }
+
+  .add-friend-input-wrapper .add-friend-hint,
+  .add-friend-input-wrapper .add-friend-input {
+    height: 36px;
+    padding-left: 11px;
+    box-sizing: border-box;
+    font-size: 15px;
+    font-weight: 400;
+    letter-spacing: normal; }
+
+  .add-friend-input-wrapper .add-friend-hint {
+    left: 1px; }
+
+  .add-friend-input-wrapper .add-friend-input {
+    margin-right: 11px;
+    border: 1px solid rgba(255, 255, 255, 0.6);
+    line-height: 1; }
+
+  .theme-dark .add-friend-input-wrapper .add-friend-input {
+    border-color: rgba(255, 255, 255, 0.6); }
+    .theme-dark .add-friend-input-wrapper .add-friend-input:hover {
+      border-color: rgba(255, 255, 255, 0.8); }
+    .theme-dark .add-friend-input-wrapper .add-friend-input:focus {
+      background-color: #FFF;
+      border-color: var(--accent);
+      color: #000; }
+
+  .theme-light .add-friend-input-wrapper .add-friend-input {
+    border-color: rgba(0, 0, 0, 0.6);
+    color: #000; }
+    .theme-light .add-friend-input-wrapper .add-friend-input:hover {
+      border-color: rgba(0, 0, 0, 0.8); }
+    .theme-light .add-friend-input-wrapper .add-friend-input:focus {
+      border-color: var(--accent);
+      color: #000; }
+
+  .add-friend-input-wrapper .btn {
+    padding: 9px 12px 10px !important; }
+
+  #friends .btn {
+    border: 1px solid transparent;
+    border-radius: 0;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 1; }
+
+  .theme-dark #friends .btn {
+    background-color: rgba(255, 255, 255, 0.2); }
+    .theme-dark #friends .btn:hover {
+      background-color: rgba(255, 255, 255, 0.2);
+      border-color: rgba(255, 255, 255, 0.6); }
+    .theme-dark #friends .btn:focus {
+      border-color: transparent; }
+
+  .theme-light #friends .btn {
+    background-color: rgba(0, 0, 0, 0.3);
+    color: #000; }
+    .theme-light #friends .btn:hover {
+      border-color: rgba(0, 0, 0, 0.6); }
+    .theme-light #friends .btn:focus {
+      border-color: transparent; }
+
+  #friends .friends-table .friend-table-add-wrapper .friend-table-add-header .connect-accounts h3 {
+    font-size: 15px;
+    font-weight: 400; }
+
+  .theme-dark #friends .friends-table .friend-table-add-wrapper .friend-table-add-header .connect-accounts h3 {
+    color: #FFF; }
+
+  .theme-light #friends .friends-table .friend-table-add-wrapper .friend-table-add-header .connect-accounts h3 {
+    color: #000; }
+
+  .connect-account-btn .connect-account-btn-inner {
+    border-radius: 0; }
 
   .bot-tag {
     background-color: #404040;
